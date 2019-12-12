@@ -1,3 +1,4 @@
+// Same thing than document.querySelector("something") but with just the $ sign
 window.$ = document.querySelector.bind(document);
 // Make a div
 const myDiv = document.createElement('div');
